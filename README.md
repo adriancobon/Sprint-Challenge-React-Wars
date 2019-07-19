@@ -42,6 +42,10 @@ props (short for “properties”) and state are both plain JavaScript objects. 
 
 A "side effect" is anything that affects something outside the scope of the function being executed. These can be, say, a network request, which has your code communicating with a third party (and thus making the request, causing logs to be recorded, caches to be saved or updated, all sorts of effects that are outside the function.
 
+Use an effect hook.
+
+
+
 ## Project Set Up
 
 Follow these steps to set up and work on your project:

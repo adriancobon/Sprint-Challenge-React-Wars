@@ -22,6 +22,8 @@ const App = () => {
 
     }, []);
 
+    const arrayPeople = Array.from(people);
+arrayPeople.forEach(person => console.log(person.name));
 
   return (
     <div className="App">
